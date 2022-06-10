@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg sticky-sm-top">
+    <a class="navbar-brand" href="index.html">Mama Lyss</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sign-up.html">Sign-Up</a>
+        </li>
+      </ul>
+    </div>
+    
+</nav>
+    
+      
+
+
+<div id="myCarousel" class="carousel slide bg-inverse w-100 ms-auto me-auto" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/steak.jpeg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/enchiladas1.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/fettuccine.avif" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+
+<table class="table container table-responsive-sm">
+  <thead>
+    <tr class="text-center">
+      <th scope="col justify-content-center">Menu Item</th>
+      <th scope="col">Side</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody class="table table-dark table-striped text-center">
+    <tr>
+      <th scope="row">24oz Porterhouse Steak</th>
+      <td>Sea Salt Fries</td>
+      <td>$67.99</td>
+    </tr>
+    <tr>
+      <th scope="row">Enchiladas</th>
+      <td>Refried Beans</td>
+      <td>$24.95</td>
+    </tr>
+    <tr>
+      <th scope="row">Fettuccine Alfredo</th>
+      <td>Breadsticks</td>
+      <td>$24.95</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="card text-center" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title">Become a member today</h5>
+    <p class="card-text">Sign up today to start earning rewards on every order with us.</p>
+    <a href="sign-up.html" class="btn btn-primary">Sign Up</a>
+  </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
